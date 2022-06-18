@@ -1,0 +1,16 @@
+{
+  "name": "bored-ape-yacht-club-top-holders-second",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ hashrei/bored-ape-yacht-club-top-holders-second",
+    "create-local": "graph create --node http://localhost:8020/ hashrei/bored-ape-yacht-club-top-holders-second",
+    "remove-local": "graph remove --node http://localhost:8020/ hashrei/bored-ape-yacht-club-top-holders-second",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 hashrei/bored-ape-yacht-club-top-holders-second"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.30.4",
+    "@graphprotocol/graph-ts": "0.27.0"
+  }
+}
