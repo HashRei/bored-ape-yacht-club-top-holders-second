@@ -2,7 +2,7 @@ specVersion: 0.0.4
 features:
   - ipfsOnEthereumContracts
 schema:
-  file: ./schema.graphql
+  file: schema.graphql
 dataSources:
   - kind: ethereum
     name: Token
@@ -20,8 +20,8 @@ dataSources:
         - User
       abis:
         - name: Token
-          file: ./abis/Token.json
+          file: Token\abis\Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,indexed uint256)
           handler: handleTransfer
-      file: ./src/token.ts
+      file: Token\Token.wasm
