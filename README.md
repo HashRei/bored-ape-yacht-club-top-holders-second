@@ -2,6 +2,11 @@ Made by <a href="https://github.com/HashRei">@HashRei</a>
 
 # Getting Started
 
+## Description
+
+Subgraph that returns the holders of Bored Ape Yacht Club NFTs 🐒
+
+
 ## Requirements
 
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
