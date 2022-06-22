@@ -28,8 +28,8 @@ Made by <a href="https://github.com/HashRei">@HashRei</a>
 1. Clone and install dependencies
 
 ```
-git clone https://github.com/HashRei/nft-marketplace.git
-cd nft-marketplace
+git clone git@github.com:HashRei/bored-ape-yacht-club-top-holders-second.git
+cd bored-ape-yacht-club-top-holders-second
 yarn
 ```
 
